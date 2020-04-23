@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XHelper_Example' do
+  pod 'XHelper', :path => '../'
+
+  target 'XHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
